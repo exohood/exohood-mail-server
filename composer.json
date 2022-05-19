@@ -1,0 +1,35 @@
+{
+	"name": "jasonstockman/php-mime-mail-parser",
+	"description": "Mailparse extension wrapper for PHP 5.3+",
+	"keywords": ["mailparse", "mime", "mail", "MimeMailParser"],
+	"homepage": "http://github.com/jasonstockman/php-mime-mail-parser",
+	"type": "library",
+	"license": "CC BY-SA 3.0",
+	"authors": [
+		{
+			"name": "Gabe",
+			"email": "gabe@fijiwebdesign.com",
+			"homepage": "http://www.fijiwebdesign.com/"
+		},
+		{
+			"name": "Dmitry Polovka",
+			"email": "messaged@messaged.lv",
+			"homepage": "http://messaged.lv"
+		},
+		{
+			"name": "Jason Stockman",
+			"email": "jason@protonmail.ch",
+			"homepage": "http://jasonstockman.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3",
+		"ext-mbstring": "*",
+		"ext-mailparse": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"MimeMailParser": "lib/"
+		}
+	}
+}
